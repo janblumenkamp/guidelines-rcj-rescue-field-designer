@@ -70,7 +70,7 @@ For example don't place an obstacle at a tile near the edge of the field if the 
 ## Additional notes
 1. Obstacles in evacuation room are allowed, but don't give any points. The same applies to speedbumps in the evacuation zone.
 2. Points are awarded for each negotiated difficulty. I.e. if two obstacles are located on the same tile the team will earn 20 points. Please note that the points are not awarded until the robot continues to follow the line on the next tile. 
-
+3. Don't place checkpoints directly aligned to floating walls in maze arenas if these checkpoints are also reachable by following the wall. Doing this provokes teams that are not capable of creating a map to do LOPs after they randomly crossed that tile. This way, they can make their robot go to a floating victim. So try to have at least one tile distance to floating walls from checkpoints.
 
 ## License
 
